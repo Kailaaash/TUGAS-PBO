@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaila</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #4caf50;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 1.2em;
+        }
+
+        td {
+            padding: 10px 20px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        td:first-child {
+            font-weight: 600;
+        }
+
+        td:nth-child(2) {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <table> 
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>Kaila Ashma' Nur Fadhilah</td>
+        </tr>
+        <tr></tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td>2300674</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>:</td>
+            <td>SIK B</td>
+        </tr>
+        <tr>
+            <td>Program Studi</td>
+            <td>:</td>
+            <td>Sistem Informasi Kelautan</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>Perempuan</td>
+        </tr>
+    </table>
+
+    <img src="DSC00951.JPG" alt="Gambar Orang" width="500px">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1</title>
+</head>
+<body>
+    <center>
+    <h1 style="background-color:aqua; ">Ini halaman web pertama, selamat belajar</h1>
+    </center>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LATIHAN 2</title>
+    <style>
+        /* Mengatur latar belakang halaman */
+        body {
+            background: linear-gradient(to right, #a2c2e8, #f4f1f1);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Mengatur gaya untuk h1 */
+        h1 {
+            color: #0056b3;
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+
+        /* Mengatur gaya untuk h2 */
+        h2 {
+            color: #0077cc;
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        /* Mengatur gaya untuk h3 */
+        h3 {
+            color: #0099ff;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Mengatur gaya untuk paragraf */
+        p {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kaila Ashma' Nur Fadhilah</h1>
+    <h2>Sistem Informasi Kelautan</h2>
+    <h3>Semester 3</h3>
+
+    <p>
+        Kaila sedang menempuh pendidikan tinggi di Universitas Pendidikan Indonesia jurusan Sistem Informasi Kelautan. Ini menunjukkan minat yang kuat terhadap bidang teknologi informasi yang diaplikasikan di lingkungan kelautan. Jurusan ini kemungkinan besar akan membekali Kaila dengan pengetahuan tentang sistem komputer, pemrograman, basis data, dan juga ilmu kelautan.
+    </p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 1.0em;
+            line-height: 1.6;
+        }
+
+        hr {
+            border: 1px solid #2c3e50;
+            width: 80%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trio Kwek Kwek</h1>
+
+    <img src="IMG_8492.JPG" alt="Gambar Orang" width="500px">
+
+    <p> Penulis : Kaila Ashma' Nur Fadhilah</p>
+    <p>Foto ini diambil pada saat arak-arakan MOKA-KU 2024. Mereka adalah teman saya selama 2 semester ini. Saya tidak bisa mendeskripsikan secara detail dan rinci tentang mereka. Karena mungkin apa yang saya sebutkan akan kurang dengan apa yang telah mereka laukkan terhadap saya. Terimakasih karna telah membantui dan menemani saya selama ini. Maaf mungkin bila saya banyak melakukan kesalahan yang saya sadari ataupun tidak. </p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #00796b;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table, td {
+            border: 1px solid #00796b;
+        }
+
+        td {
+            padding: 10px;
+            font-size: 1.1em;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #b2dfdb;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #e0f2f1;
+        }
+
+        a {
+            color: #004d40;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Belajar Membuat Tabel</h1>
+
+    <table>
+        <tr>
+            <td>Nomor</td>
+            <td>Nama</td>
+            <td>Kelas</td>
+            <td>NIM</td>
+            <td>Jenis Kelamin</td>
+            <td>Link Profile</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kaila</td>
+            <td>SIK B</td>
+            <td>2300674</td>
+            <td>Perempuan</td>
+            <td><a href="kaila.html">Profil Kaila</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Wulan</td>
+            <td>SIK B</td>
+            <td>2305279</td>
+            <td>Perempuan</td>
+            <td><a href="wulan.html">Profil Wulan</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Azkal</td>
+            <td>SIK B</td>
+            <td>2307781</td>
+            <td>Laki-Laki</td>
+            <td><a href="azkal.html">Profil Azkal</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Azmi</td>
+            <td>SIK B</td>
+            <td>2300713</td>
+            <td>Perempuan</td>
+            <td><a href="azmi.html">Profil Azmi</a></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN 5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f9ff;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #00796b;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        input[type="text"], input[type="date"], textarea, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004d40;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Belajar Membuat Formulir</h1>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" name="NIM"></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="text" name="tmplahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tgllahir"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jk" value="Laki-Laki"> Laki-Laki 
+                    <input type="radio" name="jk" value="Perempuan"> Perempuan</td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="Baca"> Baca 
+                    <input type="checkbox" name="hobi" value="Tidur"> Tidur 
+                    <input type="checkbox" name="hobi" value="Mancing"> Mancing 
+                    <input type="checkbox" name="hobi" value="Jalan-Jalan"> Jalan-Jalan 
+                    <input type="checkbox" name="hobi" value="Nonton Film"> Nonton Film
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>:</td>
+                <td>
+                    <select name="prodi">
+                        <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+                        <option value="PGPAUD">Pendidikan Guru Pendidikan Anak Usia Dini</option>
+                        <option value="PKP">Pendidikan Kelautan dan Perikanan</option>
+                        <option value="SIK">Sistem Informasi Kelautan</option>
+                        <option value="LK">Logistik Kelautan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f9ff;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #00796b;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        input[type="text"], input[type="date"], textarea, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004d40;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Belajar Membuat Formulir</h1>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" name="NIM"></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="text" name="tmplahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tgllahir"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jk" value="Laki-Laki"> Laki-Laki 
+                    <input type="radio" name="jk" value="Perempuan"> Perempuan</td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="Baca"> Baca 
+                    <input type="checkbox" name="hobi" value="Tidur"> Tidur 
+                    <input type="checkbox" name="hobi" value="Mancing"> Mancing 
+                    <input type="checkbox" name="hobi" value="Jalan-Jalan"> Jalan-Jalan 
+                    <input type="checkbox" name="hobi" value="Nonton Film"> Nonton Film
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>:</td>
+                <td>
+                    <select name="prodi">
+                        <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+                        <option value="PGPAUD">Pendidikan Guru Pendidikan Anak Usia Dini</option>
+                        <option value="PKP">Pendidikan Kelautan dan Perikanan</option>
+                        <option value="SIK">Sistem Informasi Kelautan</option>
+                        <option value="LK">Logistik Kelautan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS PBO</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wulan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #4caf50;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 1.2em;
+        }
+
+        td {
+            padding: 10px 20px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        td:first-child {
+            font-weight: 600;
+        }
+
+        td:nth-child(2) {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <table> 
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>Faridah Wulan Sari</td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td>2305279</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>:</td>
+            <td>SIK B</td>
+        </tr>
+        <tr>
+            <td>Program Studi</td>
+            <td>:</td>
+            <td>Sistem Informasi Kelautan</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>Perempuan</td>
+        </tr>
+    </table>
+
+    <img src="wulan.jpg" alt="Gambar Orang" width="500px">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azkal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #4caf50;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 1.2em;
+        }
+
+        td {
+            padding: 10px 20px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        td:first-child {
+            font-weight: 600;
+        }
+
+        td:nth-child(2) {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <table> 
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>Muhammad Azkal Azkiya</td>
+        </tr>
+        <tr></tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td>2307781</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>:</td>
+            <td>SIK B</td>
+        </tr>
+        <tr>
+            <td>Program Studi</td>
+            <td>:</td>
+            <td>Sistem Informasi Kelautan</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>Laki-Laki</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azmi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #4caf50;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 1.2em;
+        }
+
+        td {
+            padding: 10px 20px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        td:first-child {
+            font-weight: 600;
+        }
+
+        td:nth-child(2) {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <table> 
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>Azmi Syakira</td>
+        </tr>
+        <tr></tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td>2300713</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>:</td>
+            <td>SIK B</td>
+        </tr>
+        <tr>
+            <td>Program Studi</td>
+            <td>:</td>
+            <td>Sistem Informasi Kelautan</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>Perempuan</td>
+        </tr>
+    </table>
+</body>
+</html>
