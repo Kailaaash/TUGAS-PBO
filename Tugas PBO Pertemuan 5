@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>belajar class dan object</h1>
+    <p id="objek"></p>
+    <script src="tugasPBOpertemuan5.js"></script>
+</body>
+</html>
+
+// Superclass Ship (Kapal)
+class Ship {
+  constructor(nama, jenis, panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas) {
+    this.nama = nama;
+    this.jenis = jenis;
+    this.panjang = panjang;
+    this.lebar = lebar; // Properti baru untuk lebar kapal
+    this.berat = berat;
+    this.kecepatanMaks = kecepatanMaks;
+    this.tahunDibuat = tahunDibuat;
+    this.jenisBahanBakar = jenisBahanBakar;
+    this.kapasitas = kapasitas;
+  }
+
+  // Method umum yang bisa di override oleh subclass
+  berlayar() {
+    console.log($this.nama.sedangBerlayar);
+  }
+
+  // Polimorfisme - method yang bisa di override di subclass
+  tampilkanInfo() {
+    console.log(`Info Kapal: 
+      Nama: ${this.nama}, 
+      Jenis: ${this.jenis}, 
+      Panjang: ${this.panjang} meter, 
+      Lebar: ${this.lebar} meter, 
+      Berat: ${this.berat} ton, 
+      Kecepatan Maks: ${this.kecepatanMaks} knot, 
+      Tahun Dibuat: ${this.tahunDibuat}, 
+      Jenis Bahan Bakar: ${this.jenisBahanBakar}, 
+      Kapasitas: ${this.kapasitas} penumpang`);
+  }
+}
+
+// Subclass Kapal Kargo
+class KapalKargo extends Ship {
+  constructor(nama, panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas, kapasitasKargo) {
+    super(nama, 'Kargo', panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas);
+    this.kapasitasKargo = kapasitasKargo; // Kapasitas kargo tambahan
+  }
+
+  // Polimorfisme - overriding method tampilkanInfo
+  tampilkanInfo() {
+    console.log(`Info Kapal Kargo: 
+      Nama: ${this.nama}, 
+      Kapasitas Kargo: ${this.kapasitasKargo} ton, 
+      Panjang: ${this.panjang} meter, 
+      Lebar: ${this.lebar} meter`);
+  }
+}
+
+// Subclass Kapal Pesiar
+class KapalPesiar extends Ship {
+  constructor(nama, panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas, jumlahDek) {
+    super(nama, 'Pesiar', panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas);
+    this.jumlahDek = jumlahDek; // Jumlah dek tambahan
+  }
+
+  // Polimorfisme - overriding method tampilkanInfo
+  tampilkanInfo() {
+    console.log(`Info Kapal Pesiar: 
+      Nama: ${this.nama}, 
+      Kapasitas: ${this.kapasitas} penumpang, 
+      Jumlah Dek: ${this.jumlahDek}, 
+      Panjang: ${this.panjang} meter, 
+      Lebar: ${this.lebar} meter`);
+  }
+}
+
+// Subclass Kapal Nelayan
+class KapalNelayan extends Ship {
+  constructor(nama, panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas, kapasitasPenangkapanIkan) {
+    super(nama, 'Nelayan', panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas);
+    this.kapasitasPenangkapanIkan = kapasitasPenangkapanIkan; // Kapasitas penangkapan ikan
+  }
+
+  // Polimorfisme - overriding method tampilkanInfo
+  tampilkanInfo() {
+    console.log(`Info Kapal Nelayan: 
+      Nama: ${this.nama}, 
+      Kapasitas Penangkapan Ikan: ${this.kapasitasPenangkapanIkan} ton, 
+      Panjang: ${this.panjang} meter, 
+      Lebar: ${this.lebar} meter`);
+  }
+}
+
+// Subclass Kapal Selam
+class KapalSelam extends Ship {
+  constructor(nama, panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas, kedalamanMaks) {
+    super(nama, 'Selam', panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas);
+    this.kedalamanMaks = kedalamanMaks; // Kedalaman maksimum
+  }
+
+  // Polimorfisme - overriding method tampilkanInfo
+  tampilkanInfo() {
+    console.log(`Info Kapal Selam: 
+      Nama: ${this.nama}, 
+      Kedalaman Maksimal: ${this.kedalamanMaks} meter, 
+      Panjang: ${this.panjang} meter, 
+      Lebar: ${this.lebar} meter`);
+  }
+}
+
+// Subclass Kapal Perang
+class KapalPerang extends Ship {
+  constructor(nama, panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas, jumlahSenjata) {
+    super(nama, 'Perang', panjang, lebar, berat, kecepatanMaks, tahunDibuat, jenisBahanBakar, kapasitas);
+    this.jumlahSenjata = jumlahSenjata; // Jumlah senjata tambahan
+  }
+
+  // Polimorfisme - overriding method tampilkanInfo
+  tampilkanInfo() {
+    console.log(`Info Kapal Perang: 
+      Nama: ${this.nama}, 
+      Jumlah Senjata: ${this.jumlahSenjata}, 
+      Panjang: ${this.panjang} meter, 
+      Lebar: ${this.lebar} meter`);
+  }
+}
+
+// Polimorfisme - Implementasi
+const kapal = [
+  new KapalKargo('Titan Kargo', 200, 30, 30000, 25, 2010, 'Diesel', 30, 50000),
+  new KapalPesiar('Ocean Dream', 350, 40, 70000, 30, 2015, 'LNG', 2000, 12),
+  new KapalNelayan('Sea Fisher', 50, 10, 500, 15, 2005, 'Bensin', 10, 100),
+  new KapalSelam('Deep Explorer', 70, 15, 2000, 40, 2020, 'Nuklir', 50, 500),
+  new KapalPerang('Warrior', 150, 25, 40000, 35, 2018, 'Diesel', 100, 20)
+];
+
+// Tampilkan informasi setiap kapal menggunakan polymorphism
+kapal.forEach(kapal => {
+  kapal.tampilkanInfo();
+  console.log('--------------------------------');
+});
