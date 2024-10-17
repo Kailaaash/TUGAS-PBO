@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+</body>
+</html><h1>Daftar User/Pengguna</h1>
+    <Table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Telepon</th>
+            <th>Aksi</th>
+        </tr>
+        <% user.forEach(pengguna => {%>
+        <tr>
+            <td><%= pengguna.id %></td>
+            <td><%= pengguna.nama %></td>
+            <td><%= pengguna.email %></td>
+            <td><%= pengguna.phone %></td>
+            <td>
+                <a href="/edit/<%= pengguna.id %>">Edit</a> |
+                <a href="/delete/<%= pengguna.id %>">Hapus</a>
+            </td>
+        </tr>
+        <% }) %>
+    </Table>
+</body>
+</html>
